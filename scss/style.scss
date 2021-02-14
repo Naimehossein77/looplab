@@ -1,0 +1,390 @@
+
+$primary-overlay:rgba(50,146,156,0.7);
+$theme-colors: (
+  
+);
+
+$col:#eee;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.uni_neo{
+    font-family: uni_neo;
+    src: url("/src/fonts/UniNeue-Light.otf") format("opentype");
+
+}
+
+body{
+    h1{
+        font-family: 'Roborto', sans-serif;
+        font-weight: 600;
+    }
+    overflow-x: hidden;
+    
+}
+
+
+
+.nav-item{
+    font-size: 17px; 
+    font-weight: 500;
+    color: #152934;
+    cursor: pointer;
+    
+}
+.navitem:hover { color: rgb(235, 102, 68) !important; cursor: pointer; }
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    li{
+        padding-right: 20px;
+    }
+    li:first-child{
+        
+    } 
+}
+.nav-link{
+    color: #152934 !important;
+    font-weight: 400 !important;
+}
+
+.col{
+    margin: 0px !important;
+}
+
+#help{
+    ul{
+        font-size: 1rem;
+        font-weight: 400 !important;
+    }
+    .dropdown-menu{
+        height: 270px !important;
+    }
+}
+
+#more{
+    .dropdown-menu
+    {
+        width: 250px !important;
+        height: auto !important;
+        font-weight: 400 !important;
+    }
+    #more2{
+        padding-right: 40px;
+        padding-left: 20px;
+        i{
+            font-size: 20px !important;
+            color: rgb(0, 0, 0) !important;
+        }
+    }
+   
+    
+}
+
+
+.dropdown-menu {
+    font-size: 1rem !important;
+    width: 350px !important;
+    height: 280px !important;
+    // padding-left: 10px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    // padding-right: 10px;
+    padding: 5px;
+    
+
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 15px;
+}
+#serviceswidth{
+    .dropdown-menu{
+        width: 900px !important;
+        height: 250px !important;
+    }
+    .row{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
+    #earn {
+        .anim{
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: white;
+    
+}
+}
+
+.bordercard{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom:4px ;
+}
+.bordercard:hover{
+    margin-left: 4px;
+    border-color: #ddd;
+    transition: .2s;
+
+}
+
+#serviceswidth{
+    .anim{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    }
+}
+.dropdown-item:hover{
+        background-color: white;
+    }
+
+.small{
+    font-size: .83em;
+    font-weight: 400;
+}
+
+.normal{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0px;
+    color: #152934;
+}
+
+.mash{
+    background-image: url("../img/mash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      padding-bottom: 250px;
+    color: #152934;
+}
+
+.dropdown-menu {
+    right: auto;
+    position: absolute;
+    left: -10;
+    color: rgb(77, 75, 75);
+  }
+.banner{
+    font-size: 52px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 82px;
+}
+
+.banner-head{
+    padding-bottom: 80px;
+}
+
+.banner-button{
+    min-height: 60px;
+    min-width: 300px;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    
+
+}
+
+.tt{
+        background-color: #e83330 !important;
+        .fa{
+            margin-left: 60px;
+            margin-right: 10px;
+            transition: 0.2s;
+        }
+    }
+.tt:hover{
+    background-color:  #c72d2b !important;
+    .fa{
+        margin-left: 70px;
+        margin-right: 0px;
+        padding-right: 0px;
+        transition: 0.3s;
+    }
+}
+.tt1{
+    .fa{
+        margin-left: 88px;
+        margin-right: 10px;
+        transition: 0.2s;
+    }
+}
+.tt1:hover{
+    
+    
+    .fa{
+        margin-left: 98px;
+        margin-right: 0px;
+        padding-right: 0px;
+        transition: 0.3s;
+    }
+}
+
+#navitem3{
+    .dropdown-menu{
+        width: 200px !important;
+        height: auto !important;
+        transition: .8s;
+        
+    }
+
+}
+
+#container {
+    width: 40%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 18px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(184, 183, 183) !important;
+}
+#modal{
+    margin-top: -74px;
+    h1{
+        font-size: 32px;
+        font-weight: 600;
+        color: rgb(44, 44, 44) !important;
+    }
+    p{
+        font-size: 21px;
+        color: rgb(131, 130, 130) !important;
+    }
+    .bdr{
+        border-right: 1px solid #ddd;
+    }
+}
+
+.vl{
+    border-left: 1px solid rgb(149, 145, 145);
+    
+}
+
+
+
+#platform{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    h1{
+        font-size: 45px;
+    }
+    .btmcol{
+        font-size: 20px;
+        font-family: 'Roborto', sans-serif;
+    }
+}
+
+
+.fb{
+    color: rgb(43, 120, 209);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:1300px)
+    {
+        #serviceswidth{
+            .dropdown-menu{
+                width: 700px !important;
+                height: 300px !important;
+                .normal{
+                    font-size: 12px;
+                }
+                .small{
+                    font-size: 10px;
+                }
+            }
+            .row{
+                margin: 0px !important;
+                padding: 0px !important;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.4s; margin-top:0;  }
+	// .navbar .nav-item:hover .nav-link{ color: rgb(235, 102, 68)  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .4s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+
+
+    
+
+
+
+
